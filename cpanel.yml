@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/palosahe/public_html/
+    - /bin/cp -R * $DEPLOYPATH
